@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	input,
+	button {
+		@apply border border-gray-500 rounded disabled:bg-gray-200 disabled:cursor-not-allowed;
+	}
+}
